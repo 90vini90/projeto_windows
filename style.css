@@ -51,6 +51,48 @@ nav > a:hover {
 }
 
 main {
-    margin: auto;
-    background-color: hsl(60, 100%, 76%);
+    margin: 10px 20px;
+    background-color: #ffffff;
+}
+
+article > h1 {
+    background-color: #aeaeff;
+    font-family: American;
+    font-size: 32px;
+    text-shadow: 2px 2px 6px #000070;
+    color: black;
+    text-align: center;
+    padding: 5px 3px;
+}
+
+article > h2 {
+    color: blue;
+    font-size: 2em;
+    font-family: American;
+    text-align: center;
+    padding: 10px;
+    text-shadow: 2px 2px 3px black;
+}
+
+article > p {
+    text-indent: 50px;
+    background-color: lightblue;
+    padding: 10px;
+    border-radius: 15px;
+    color: #00004b;
+    margin-bottom: 10px;
+}
+
+article strong {
+    color: black;
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px darkblue;
+}
+
+footer {
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
 }
